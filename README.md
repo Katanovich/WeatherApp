@@ -19,8 +19,8 @@ A simple Python application that fetches and displays current weather informatio
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/weather-app.git
-   cd weather-app
+   git clone https://github.com/Katanovich/WeatherApp.git
+   cd WeatherApp
 
    ```
 
@@ -37,7 +37,7 @@ A simple Python application that fetches and displays current weather informatio
 Edit .env and fill in your values:
 
 API_KEY: Get free key from https://openweathermap.org/api
-CITY: City name (e.g., "Moscow")
+CITY: City name (e.g., "Seoul")
 UNITS: Temperature units ("metric" for Celsius, "imperial" for Fahrenheit)
 
 USAGE python main.py
@@ -50,11 +50,11 @@ python: can't open file '/Users/katana/main.py': [Errno 2] No such file or direc
 ✓ Configuration loaded successfully!
 App Name: Weather App
 API_KEY loaded: True
-City: Moscow
+City: Seoul
 Units: metric
 
 ==================================================
-Weather in Moscow, RU
+Weather in Seoul, KR
 ==================================================
 Temperature: 15°C (feels like 14°C)
 Humidity: 65%
@@ -66,7 +66,7 @@ Create .env file with:
 
 API_KEY - Your OpenWeatherMap API key (required)
 API_URL - Weather API endpoint (optional, default provided)
-CITY - City name to fetch weather for (optional, default: Moscow)
+CITY - City name to fetch weather for (optional, Seoul)
 UNITS - Temperature units: "metric" (Celsius) or "imperial" (Fahrenheit)
 See .env.example for template.
 
