@@ -85,3 +85,20 @@ Notes
 Never commit .env file - it contains sensitive data
 .env.example shows the structure without real values
 Free tier of OpenWeatherMap allows 1000 requests per day
+=========================================================
+
+🎯 CHECKLIST: PROJECT LIFECYCLE
+
+1. mkdir → Create folder
+2. cd → Navigate to folder
+3. git init → Initialize Git
+4. python3 -m venv venv → Create virtual environment
+5. source venv/bin/activate → Activate environment
+6. pip install packages → Install packages
+7. pip freeze > requirements.txt → Save dependencies
+8. Create files (.gitignore, main.py, etc.)
+9. git add . → Add files
+10. git commit -m "message" → Save changes
+11. Repeat steps 8-10 for each stage (3+ times)
+12. git remote add origin URL → Connect GitHub
+13. git push -u origin main → Upload to GitHub
